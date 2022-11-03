@@ -19,5 +19,5 @@ As for exection times of the actual scripts, we can see clearly below that the o
 ## Summary 
 Refactoring code can make the code run much more quickly and efficiently. It can also simplify the code, making it easier to understand or to debug. Two disadvantages to refactoring code might be that it can be time consuming and that it could introduce new bugs into the code. In the case of this analysis of stocks, I was able to refactor the code so that instead of looping through each of the 32,000+ data points 12 different times for each ticker, it just looped through each data point once. The script ended up running 5 times faster after being refactored. If there were even more data points to run through, this difference could have been even more significant so this proves the usefulness of refactoring.
 
-###### Note
-Refactored script can be found in VBA Module 2 of the VBA_Challenge.xlsm fil.
+##### Note
+Refactored script can be found in VBA Module 2 of the VBA_Challenge.xlsm file.
