@@ -12,9 +12,9 @@ As seen in the images below (2017 first, 2018 second), almost all stocks did sig
 
 As for exection times of the actual scripts, we can see clearly below that the original script (shown first) ran much more slowly than the refactored script (shown second).
 
-![Org Script Runtime 2017](Green_Stocks_2017) ![Org Script Runtime 2018](Green_Stocks_2018)
+![Org Script Runtime 2017](Green_Stocks_2017.png) ![Org Script Runtime 2018](Green_Stocks_2018.png)
 
-![Refactored Script Runtime 2017](VBA_Challenge_2017) ![Refactored Script Runtime 2018](VBA_Challenge_2018)
+![Refactored Script Runtime 2017](VBA_Challenge_2017.png) ![Refactored Script Runtime 2018](VBA_Challenge_2018.png)
 
 ## Summary 
 Refactoring code can make the code run much more quickly and efficiently. It can also simplify the code, making it easier to understand or to debug. Two disadvantages to refactoring code might be that it can be time consuming and that it could introduce new bugs into the code. In the case of this analysis of stocks, I was able to refactor the code so that instead of looping through each of the 32,000+ data points 12 different times for each ticker, it just looped through each data point once. The script ended up running 5 times faster after being refactored. If there were even more data points to run through, this difference could have been even more significant so this proves the usefulness of refactoring.
